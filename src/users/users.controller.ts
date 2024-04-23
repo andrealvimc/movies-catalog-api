@@ -16,7 +16,6 @@ import { UsersService } from './users.service';
 
 import { JwtAuthGuard } from '../auth/jwt-auth.guard';
 import { AuthGuard } from '@nestjs/passport';
-import { UpdatePasswordDto } from './user.dto';
 import { User } from '@prisma/client';
 
 @ApiTags('user')

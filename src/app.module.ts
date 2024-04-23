@@ -1,6 +1,5 @@
 import { UserModule } from './users/users.module';
 import { MoviesModule } from './movies/movies.module';
-import { MoviesController } from './movies/movies.controller';
 
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
@@ -11,7 +10,7 @@ import { PrismaModule } from './prisma.module';
 
 @Module({
   imports: [UserModule, MoviesModule, AuthModule, PrismaModule],
-  controllers: [MoviesController, AppController],
+  controllers: [AppController],
   providers: [AppService, PrismaService],
 })
 export class AppModule {}
