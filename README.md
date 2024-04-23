@@ -2,4 +2,6 @@
 
 
 
-<p>Endpoint de documentação: /docs</p>
+<p>Documentação: 
+  <a href="https://api-movies.alvimdev.tech/docs">Link</a>  
+</p>
