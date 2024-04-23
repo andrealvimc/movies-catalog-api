@@ -12,6 +12,7 @@ export class AppController {
     return {
       message: 'Welcome to the Movies API catalog',
       documentation: 'https://api-movies.alvimdev.tech/docs',
+      github: 'https://github.com/andrealvimc/movies-catalog-api',
       version: '1.0.0',
     }
   }
