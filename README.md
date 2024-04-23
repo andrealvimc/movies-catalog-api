@@ -1,4 +1,4 @@
-<h1>API de catalogos</h1>
+<h1>A simple catalog api for movies</h1>
 
 
 <strong>Techs:</strong>
@@ -16,6 +16,6 @@
 
 
 <p>
-  Documentação: 
+  Documentation: 
   <a href="https://api-movies.alvimdev.tech/docs">Link</a>  
 </p>
