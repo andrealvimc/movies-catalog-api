@@ -9,6 +9,7 @@ RUN npm install
 COPY . .
 
 RUN npx prisma generate
+ENV DATABASE_URL=postgres://pg:Gz7rTG3GCR8g8LZ7mki530Esr8TLHAnE@dpg-cok2jsnsc6pc738k1mcg-a/db_p60m
 
 RUN npm run build
 
